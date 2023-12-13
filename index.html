@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <script src="./app.js" defer></script>
     <title>Sign-up</title>
 </head>
 <body>
@@ -17,13 +18,38 @@
                 </div>
                 <div id="form-container">
                     <div id="form">
-                        <div>
+                        <div id="form-greeting">
                             <h1>Welcome!</h1>
                             <h2>Let's sign up!</h2>
                         </div>
 
                         <form>
+                            <fieldset>
+                                <div>
+                                    <input type="text" id="name" name="name" placeholder=" " required>
+                                    <label for="name">Full Name</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="username" name="username" placeholder=" " required>
+                                    <label for="username">Username</label>
+                                </div>
+                                <div>
+                                    <input type="email" id="email" name="email" placeholder="Email">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div>
+                                    <input type="password" id="password" name="password" placeholder="Password">
+                                    <label for="password">Password</label>
+                                </div>
+                                <div>
+                                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
+                                    <label for="confirm-password">Confirm Password</label>
+                                </div>
+                                <div class="button">
+                                    <button type="submit">Sign Up</button>
+                                </div>
 
+                            </fieldset>
                         </form>
                     </div>
                 </div>
