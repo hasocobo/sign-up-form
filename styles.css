@@ -147,7 +147,7 @@ div input:focus {
     outline: none;
 }
 
-div input:focus + label, div input:not(:placeholder-shown) + label{
+div input:focus + label, div input:not(:placeholder-shown) + label {
     outline: none;
     font-size: 1rem;
     position: relative;
